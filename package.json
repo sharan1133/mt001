@@ -1,6 +1,7 @@
 {
   "name": "matrimony_production",
   "version": "1.0.0",
+  "homepage": "https://sharan1133.github.io/mt001/",
   "description": "",
   "scripts": {
 	"predeploy": "npx parcel build index.html && mv dist/* build/",
