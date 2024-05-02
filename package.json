@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-	"predeploy": "npx parcel build index.html",
-  	"deploy": "gh-pages -d build",
+	"predeploy": "npx parcel build index.html && mv dist/* build/",
+	"deploy": "git add . && git commit -m 'Deploy to GitHub Pages' && git push origin gh-pages",
     	"test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "sagar",
